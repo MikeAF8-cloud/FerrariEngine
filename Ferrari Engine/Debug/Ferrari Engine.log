@@ -1,0 +1,100 @@
+﻿Build started 10/13/2018 3:25:48 AM.
+     1>Project "C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Ferrari Engine\Ferrari Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Ferrari Engine\Externals\freetype-2.9\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Examples\Game.cpp main.cpp src\graphics\BatchRenderer2D.cpp src\graphics\Label.cpp src\graphics\Layers\Group.cpp src\graphics\Layers\Layer.cpp src\graphics\Texture.cpp src\graphics\TextureManager.cpp src\graphics\sprite.cpp
+         Texture.cpp
+         Generating Code...
+         Compiling...
+         sprite.cpp
+         TextureManager.cpp
+         Layer.cpp
+         Group.cpp
+     1>c:\users\mike.ferreira\documents\visual studio 2013\projects\ferrari engine\ferrari engine\src\graphics\layers\group.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         Label.cpp
+         BatchRenderer2D.cpp
+         Game.cpp
+     1>c:\users\mike.ferreira\documents\visual studio 2013\projects\ferrari engine\ferrari engine\src\audio\sound.h(43): warning C4172: returning address of local variable or temporary
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.exe" /INCREMENTAL /NOLOGO FreeImage.lib glew32s.lib glfw3.lib libogg.lib libvorbis.lib OpenGL32.lib fmod_vc.lib fmod_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\autofit.obj
+         Debug\ftbase.obj
+         Debug\ftbbox.obj
+         Debug\ftbitmap.obj
+         Debug\ftcid.obj
+         Debug\ftdebug.obj
+         Debug\ftfntfmt.obj
+         Debug\ftfstype.obj
+         Debug\ftgasp.obj
+         Debug\ftglyph.obj
+         Debug\ftgxval.obj
+         Debug\ftinit.obj
+         Debug\ftlcdfil.obj
+         Debug\ftmm.obj
+         Debug\ftotval.obj
+         Debug\ftpatent.obj
+         Debug\ftpfr.obj
+         Debug\ftstroke.obj
+         Debug\ftsynth.obj
+         Debug\ftsystem.obj
+         Debug\fttype1.obj
+         Debug\ftwinfnt.obj
+         Debug\bdf.obj
+         Debug\ftcache.obj
+         Debug\cff.obj
+         Debug\type1cid.obj
+         Debug\ftgzip.obj
+         Debug\ftlzw.obj
+         Debug\pcf.obj
+         Debug\pfr.obj
+         Debug\psaux.obj
+         Debug\pshinter.obj
+         Debug\psmodule.obj
+         Debug\raster.obj
+         Debug\sfnt.obj
+         Debug\smooth.obj
+         Debug\truetype.obj
+         Debug\type1.obj
+         Debug\type42.obj
+         Debug\winfnt.obj
+         Debug\platform.obj
+         "Debug\texture-atlas.obj"
+         "Debug\texture-font.obj"
+         Debug\vector.obj
+         Debug\main.obj
+         Debug\Sound.obj
+         Debug\Sound_Manager.obj
+         Debug\BatchRenderer2D.obj
+         Debug\indexbuffer.obj
+         Debug\vertexarray.obj
+         Debug\vertexbuffer.obj
+         Debug\Display.obj
+         Debug\Font.obj
+         Debug\Font_Manager.obj
+         Debug\Label.obj
+         Debug\Group.obj
+         Debug\Layer.obj
+         Debug\shader.obj
+         Debug\ShaderFactory.obj
+         Debug\sprite.obj
+         Debug\Texture.obj
+         Debug\TextureManager.obj
+         Debug\mat2.obj
+         Debug\mat4.obj
+         Debug\mat3.obj
+         Debug\Quaternion.obj
+         Debug\vec2.obj
+         Debug\vec3.obj
+         Debug\vec4.obj
+            Creating library C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.lib and object C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\vc120.pdb'; linking object as if no debug info
+         Ferrari Engine.vcxproj -> C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Debug\Ferrari Engine.exe
+     1>Done Building Project "C:\Users\mike.ferreira\Documents\Visual Studio 2013\Projects\Ferrari Engine\Ferrari Engine\Ferrari Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.21

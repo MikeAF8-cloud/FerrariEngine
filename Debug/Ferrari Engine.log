@@ -1,0 +1,184 @@
+﻿Build started 1/29/2020 9:42:02 AM.
+     1>Project "C:\Users\arman\Desktop\Ferrari Engine\Ferrari Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\arman\Desktop\Ferrari Engine\Ferrari Engine\Externals\freetype-2.9\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Examples\Game.cpp main.cpp src\audio\Sound.cpp src\audio\Sound_Manager.cpp src\graphics\BatchRenderer2D.cpp src\graphics\Buffers\indexbuffer.cpp src\graphics\Buffers\vertexarray.cpp src\graphics\Buffers\vertexbuffer.cpp src\graphics\Display.cpp src\graphics\Font.cpp src\graphics\Font_Manager.cpp src\graphics\Label.cpp src\graphics\Layers\Group.cpp src\graphics\Layers\Layer.cpp src\graphics\shader.cpp src\graphics\ShaderFactory.cpp src\graphics\sprite.cpp src\graphics\Texture.cpp src\graphics\TextureManager.cpp src\maths\mat2.cpp src\maths\mat4.cpp src\maths\mat3.cpp src\maths\Quaternion.cpp src\maths\vec2.cpp src\maths\vec3.cpp src\maths\vec4.cpp
+         vec4.cpp
+         vec3.cpp
+         vec2.cpp
+         Quaternion.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(227): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(228): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(229): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(230): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(231): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\arman\desktop\ferrari engine\src\maths\quaternion.cpp(232): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         mat3.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\maths\mat3.cpp(144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         mat4.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\maths\mat4.cpp(234): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         mat2.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\maths\mat2.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         TextureManager.cpp
+         Texture.cpp
+         sprite.cpp
+         ShaderFactory.cpp
+         shader.cpp
+         Layer.cpp
+         Group.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\graphics\layers\group.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         Label.cpp
+         Font_Manager.cpp
+         Font.cpp
+         Display.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound.h(43): warning C4172: returning address of local variable or temporary
+     1>c:\users\arman\desktop\ferrari engine\src\graphics\display.cpp(100): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\arman\desktop\ferrari engine\src\graphics\display.cpp(120): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         vertexbuffer.cpp
+         vertexarray.cpp
+         Generating Code...
+         Compiling...
+         indexbuffer.cpp
+         BatchRenderer2D.cpp
+         Sound_Manager.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound.h(43): warning C4172: returning address of local variable or temporary
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound_manager.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         Sound.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound.h(43): warning C4172: returning address of local variable or temporary
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound.cpp(41): warning C4553: '==' : operator has no effect; did you intend '='?
+         main.cpp
+         Game.cpp
+     1>c:\users\arman\desktop\ferrari engine\src\audio\sound.h(43): warning C4172: returning address of local variable or temporary
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\arman\Desktop\Ferrari Engine\Ferrari Engine\Externals\freetype-2.9\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "Externals\freetype-2.9\src\autofit\autofit.c" "Externals\freetype-2.9\src\base\ftbase.c" "Externals\freetype-2.9\src\base\ftbbox.c" "Externals\freetype-2.9\src\base\ftbitmap.c" "Externals\freetype-2.9\src\base\ftcid.c" "Externals\freetype-2.9\src\base\ftdebug.c" "Externals\freetype-2.9\src\base\ftfntfmt.c" "Externals\freetype-2.9\src\base\ftfstype.c" "Externals\freetype-2.9\src\base\ftgasp.c" "Externals\freetype-2.9\src\base\ftglyph.c" "Externals\freetype-2.9\src\base\ftgxval.c" "Externals\freetype-2.9\src\base\ftinit.c" "Externals\freetype-2.9\src\base\ftlcdfil.c" "Externals\freetype-2.9\src\base\ftmm.c" "Externals\freetype-2.9\src\base\ftotval.c" "Externals\freetype-2.9\src\base\ftpatent.c" "Externals\freetype-2.9\src\base\ftpfr.c" "Externals\freetype-2.9\src\base\ftstroke.c" "Externals\freetype-2.9\src\base\ftsynth.c" "Externals\freetype-2.9\src\base\ftsystem.c" "Externals\freetype-2.9\src\base\fttype1.c" "Externals\freetype-2.9\src\base\ftwinfnt.c" "Externals\freetype-2.9\src\bdf\bdf.c" "Externals\freetype-2.9\src\cache\ftcache.c" "Externals\freetype-2.9\src\cff\cff.c" "Externals\freetype-2.9\src\cid\type1cid.c" "Externals\freetype-2.9\src\gzip\ftgzip.c" "Externals\freetype-2.9\src\lzw\ftlzw.c" "Externals\freetype-2.9\src\pcf\pcf.c" "Externals\freetype-2.9\src\pfr\pfr.c" "Externals\freetype-2.9\src\psaux\psaux.c" "Externals\freetype-2.9\src\pshinter\pshinter.c" "Externals\freetype-2.9\src\psnames\psmodule.c" "Externals\freetype-2.9\src\raster\raster.c" "Externals\freetype-2.9\src\sfnt\sfnt.c" "Externals\freetype-2.9\src\smooth\smooth.c" "Externals\freetype-2.9\src\truetype\truetype.c" "Externals\freetype-2.9\src\type1\type1.c" "Externals\freetype-2.9\src\type42\type42.c" "Externals\freetype-2.9\src\winfonts\winfnt.c" "Externals\freetype-gl\platform.c" "Externals\freetype-gl\texture-atlas.c" "Externals\freetype-gl\texture-font.c" "Externals\freetype-gl\vector.c"
+         vector.c
+         texture-font.c
+         texture-atlas.c
+     1>c:\users\arman\desktop\ferrari engine\externals\freetype-gl\texture-atlas.c(133): warning C4090: '=' : different 'const' qualifiers
+     1>c:\users\arman\desktop\ferrari engine\externals\freetype-gl\texture-atlas.c(237): warning C4018: '<' : signed/unsigned mismatch
+         platform.c
+         winfnt.c
+         type42.c
+         type1.c
+         truetype.c
+         smooth.c
+         sfnt.c
+         raster.c
+         psmodule.c
+         pshinter.c
+         psaux.c
+         pfr.c
+         pcf.c
+         ftlzw.c
+         ftgzip.c
+         type1cid.c
+         cff.c
+         Generating Code...
+         Compiling...
+         ftcache.c
+         bdf.c
+         ftwinfnt.c
+         fttype1.c
+         ftsystem.c
+         ftsynth.c
+         ftstroke.c
+         ftpfr.c
+         ftpatent.c
+         ftotval.c
+         ftmm.c
+         ftlcdfil.c
+         ftinit.c
+         ftgxval.c
+         ftglyph.c
+         ftgasp.c
+         ftfstype.c
+         ftfntfmt.c
+         ftdebug.c
+         ftcid.c
+         Generating Code...
+         Compiling...
+         ftbitmap.c
+         ftbbox.c
+         ftbase.c
+         autofit.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.exe" /INCREMENTAL /NOLOGO FreeImage.lib glew32s.lib glfw3.lib libogg.lib libvorbis.lib OpenGL32.lib fmod_vc.lib fmod_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\autofit.obj
+         Debug\ftbase.obj
+         Debug\ftbbox.obj
+         Debug\ftbitmap.obj
+         Debug\ftcid.obj
+         Debug\ftdebug.obj
+         Debug\ftfntfmt.obj
+         Debug\ftfstype.obj
+         Debug\ftgasp.obj
+         Debug\ftglyph.obj
+         Debug\ftgxval.obj
+         Debug\ftinit.obj
+         Debug\ftlcdfil.obj
+         Debug\ftmm.obj
+         Debug\ftotval.obj
+         Debug\ftpatent.obj
+         Debug\ftpfr.obj
+         Debug\ftstroke.obj
+         Debug\ftsynth.obj
+         Debug\ftsystem.obj
+         Debug\fttype1.obj
+         Debug\ftwinfnt.obj
+         Debug\bdf.obj
+         Debug\ftcache.obj
+         Debug\cff.obj
+         Debug\type1cid.obj
+         Debug\ftgzip.obj
+         Debug\ftlzw.obj
+         Debug\pcf.obj
+         Debug\pfr.obj
+         Debug\psaux.obj
+         Debug\pshinter.obj
+         Debug\psmodule.obj
+         Debug\raster.obj
+         Debug\sfnt.obj
+         Debug\smooth.obj
+         Debug\truetype.obj
+         Debug\type1.obj
+         Debug\type42.obj
+         Debug\winfnt.obj
+         Debug\platform.obj
+         "Debug\texture-atlas.obj"
+         "Debug\texture-font.obj"
+         Debug\vector.obj
+         Debug\main.obj
+         Debug\Sound.obj
+         Debug\Sound_Manager.obj
+         Debug\BatchRenderer2D.obj
+         Debug\indexbuffer.obj
+         Debug\vertexarray.obj
+         Debug\vertexbuffer.obj
+         Debug\Display.obj
+         Debug\Font.obj
+         Debug\Font_Manager.obj
+         Debug\Label.obj
+         Debug\Group.obj
+         Debug\Layer.obj
+         Debug\shader.obj
+         Debug\ShaderFactory.obj
+         Debug\sprite.obj
+         Debug\Texture.obj
+         Debug\TextureManager.obj
+         Debug\mat2.obj
+         Debug\mat4.obj
+         Debug\mat3.obj
+         Debug\Quaternion.obj
+         Debug\vec2.obj
+         Debug\vec3.obj
+         Debug\vec4.obj
+            Creating library C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.lib and object C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4204: 'C:\Users\arman\Desktop\Ferrari Engine\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Ferrari Engine.vcxproj -> C:\Users\arman\Desktop\Ferrari Engine\Debug\Ferrari Engine.exe
+     1>Done Building Project "C:\Users\arman\Desktop\Ferrari Engine\Ferrari Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.65
